@@ -1,0 +1,13 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "bookuser",
+  "password": "password",
+  "database": "booksdb",
+  "entities": ["dist/**/*.entity{.ts,.js}"],
+  "migrations": ["dist/migrations/*.js"],
+  "cli": {
+    "migrationsDir": "src/migrations"
+  }
+}
